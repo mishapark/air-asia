@@ -8,7 +8,7 @@
 }
 .about::before {
     content: '';
-    background: url(/air-asia-img/images/decor/gates_.png);
+    background: url(../../../air-asia-img/images/decor/gates.jpg);
     width: 488px;
     height: 502px;
     display: block;
@@ -34,7 +34,7 @@
     color: black;
     position: relative;
     padding: 69px 96px 81px;
-    background: url(/air-asia-img/images/decor/mountains_.png) no-repeat;
+    background: url(../../../air-asia-img/images/decor/mountains.jpg) no-repeat;
     max-width: 780px;
     margin-left: auto;
 }
