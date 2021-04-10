@@ -1,5 +1,6 @@
 .banner {
-    background: url(../../../air-asia-img/images/bg/middleline.jpg);
+    background: url(../../../air-asia-img/images/bg/middleline.jpg) no-repeat;
+    background-size: cover;
     height: 360px;
 
 }
