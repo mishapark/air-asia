@@ -1,0 +1,106 @@
+input, textarea:focus {
+    outline: invert;
+}
+.feedback {
+    padding: 74px;
+    padding-bottom: 102px;
+    background: #f4f5f5;
+}
+.feedback__title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 45px;
+}
+.feedback__user {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.feedback__user-input {
+    border-radius: 4px;
+    padding: 29px;
+    font-size: 18px;
+    width: 50%;
+    height: 62px;
+    margin-right: 30px;
+}
+.feedback__user-input:last-child {
+    margin-right: 0;
+}
+.feedback__text-textarea {
+    width: 1140px;
+    height: 232px;
+    border-radius: 4px;
+    resize: none;
+    padding: 29px;
+    margin-bottom: 21px;
+    border: none;
+}
+.feedback__options {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-bottom: 30px;
+}
+.feedback__options-subtitle {
+    font-size: 18px;
+    color: #000000;
+    margin-right: 10px;
+    width: 364;
+}
+.feedback__options-checkbox-elem {
+    position: absolute;
+    visibility: hidden;
+}
+.feedback__options-list {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+.feedback__options-item {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.feedback__options-item:last-child{
+    margin-right: 0;
+}
+.feedback__options-checkbox-button {
+    padding: 10px 14px;
+    border-radius: 17px;
+    font-size: 13px;
+    color: #000000;
+    cursor: pointer;
+    background: #e7e7e7;
+    border-radius: 17px;
+    transition: background 0.3s;
+}
+
+.feedback__options-checkbox-button:hover {
+    background: #b9eae4;
+    transition: 0.3s;
+}
+.feedback__options-checkbox-elem:checked + .feedback__options-checkbox-content .feedback__options-checkbox-button {
+    background: #b9eae4;
+}
+
+
+
+
+
+.feedback__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+.feedback__buttons-reset {
+    margin-right: 23px;
+    background: #8e8e8e;
+    color: #fff;
+    width: 165px;
+    padding-left: 42px;
+    transition: background 0.3s;
+}
+.feedback__buttons-reset:hover {
+    background: #2b2b2b;
+}

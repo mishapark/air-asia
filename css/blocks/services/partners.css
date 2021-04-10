@@ -1,0 +1,31 @@
+.partners {
+    background: #f4f5f5;
+    padding: 83px 0px 51px;
+}
+.partners__title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 80px;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partners__item {
+    min-width: 229px;
+    max-width: 300px;
+    margin-bottom: 68px;
+}
+
+.partners__link {
+    display: flex;
+    align-items: center;
+}
+.partners__logo {
+    max-width: 100%;
+}

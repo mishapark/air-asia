@@ -1,0 +1,72 @@
+.socials {
+    margin-right: 73px;
+    display: flex;
+}
+.socials__item {
+    margin-right: 10px;
+    opacity: 100%;
+    transition: opacity 0.3s;
+}
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__item:hover {
+    opacity: 70%;
+    transition: 0.3s;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+    position: relative;
+}
+
+
+.socials__item--icon--tg .socials__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(../../air-asia-img/images/icons/socials/sprites.png) -10px -10px;
+}
+.socials__item--icon--vk .socials__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(../../air-asia-img/images/icons/socials/sprites.png) -66px -10px;
+}
+.socials__item--icon--fb .socials__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(../../air-asia-img/images/icons/socials/sprites.png) -122px -10px;
+}
+.socials__item--icon--insta .socials__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    background: url(../../air-asia-img/images/icons/socials/sprites.png) -178px -10px;
+}

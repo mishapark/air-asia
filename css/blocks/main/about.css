@@ -1,0 +1,55 @@
+.section__about {
+    margin-bottom: 42px;
+}
+.about {
+    position: relative;
+    display: flex;
+    padding-top: 109px;
+}
+.about::before {
+    content: '';
+    background: url(/air-asia-img/images/decor/gates_.png);
+    width: 488px;
+    height: 502px;
+    display: block;
+    position: absolute;
+    top: 0;
+}
+.about__img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    overflow: hidden;
+    border-radius: 6px;
+}
+.about__img-m {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about__content {
+    color: black;
+    position: relative;
+    padding: 69px 96px 81px;
+    background: url(/air-asia-img/images/decor/mountains_.png) no-repeat;
+    max-width: 780px;
+    margin-left: auto;
+}
+.about__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+.about__text {
+    line-height: 1.7;
+    margin-bottom: 41px;
+}
+.about__text p {
+    margin-bottom: 46px;
+}
+.about__text p:last-child {
+    margin-bottom: 0;
+}

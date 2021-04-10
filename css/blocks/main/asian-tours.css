@@ -1,0 +1,16 @@
+.asian-tours {
+    width: 50%;
+    margin-bottom: 248px;
+}
+
+.asian-tours__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 27px;
+}
+
+.asian-tours__subtitle {
+    font-size: 18px;
+    margin-bottom: 35px;
+}

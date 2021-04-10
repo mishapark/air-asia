@@ -1,0 +1,94 @@
+.reviews {
+    background: #ffffff;
+    color: #000000;
+    padding: 100px;
+}
+
+.reviews__list {
+    margin-bottom: 45px;
+    column-count: 2;
+    column-gap: 27px;
+}
+
+.reviews__item {
+    display: inline-block;
+    background: #f4f5f5;
+    width: 555px;
+    padding: 50px 34px 38px 30px;
+    margin-bottom: 20px;
+    margin-right: 28px;
+    border-radius: 4px;
+}
+
+
+/* user info */
+.reviews__item-user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.reviews__item-user-logo {
+    width: 139px;
+    height: 139px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 23px;
+    flex-shrink: 0;
+}
+.reviews__user-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.reviews__user-name {
+    margin-bottom: 10px;
+    padding-top: 2px;
+}
+.reviews__user-name-link {
+    font-size: 24px;
+    font-weight: bold;
+    vertical-align: middle;
+    border-bottom: 2px solid transparent;
+}
+.reviews__user-name-link:hover {
+    color: #2e77a4;
+    border-bottom-color: #2e77a4;
+    transition: 0.5s;
+}
+.reviews__user-name::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-left: 3px;
+    vertical-align: middle;
+    background: url(/air-asia-img/images/icons/socials/vk-blue.png) center center no-repeat;
+}
+
+.reviews__option {
+    font-size: 13px;
+    padding: 10px 16px;
+    background: #b9eae4;
+    border-radius: 17px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* user content */
+
+.reviews__item-content-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.reviews__item-content-text {
+    line-height: 1.69;
+    margin-bottom: 45px;
+    color: #818181;
+}
+.reviews__item-content-date {
+    font-size: 14px;
+}

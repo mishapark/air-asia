@@ -1,0 +1,9 @@
+.hero {
+    min-height: 403px;
+    background: url(../../../air-asia-img/images/bg/headline.jpg) center top -9px no-repeat white;
+}
+.hero__title {
+    font-size: 72px;
+    font-weight: bold ;
+    margin-bottom: 94px;
+}

@@ -1,0 +1,52 @@
+.button {
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 26px;
+    padding: 16px 38px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-flex;
+}
+.button--color--red {
+    color: #fff;
+    background: #f5170e;
+    transition: background 0.8s;
+}
+.button--color--red:hover {
+    background: #da0100;
+    transition: 0.3s;
+}
+.button--color--white {
+    color: #f5170e;
+    background: white;
+    border: solid 1px rgba(245, 23, 14, 0.4);
+    padding: 16px 29px;
+    transition: background 0.8s;
+}
+.button--color--white:hover {
+    background: #f5170e;
+    color: white;
+    transition: 0.3s;
+}
+.button--active {
+    background: #f5170e;
+    color: white;
+    padding: 16px 29px;
+    margin-left: 4px;
+}
+
+.button--size--wide {
+    padding: 16px 37px;
+}
+
+.button--type--welcome {
+    min-width: 165px;
+    padding-left: 56px;
+    box-shadow: 0 0 18px 9px transparent;
+    transition: box-shadow 0.3s;
+}
+
+.button--type--welcome:hover {
+    box-shadow: 0 0 18px 9px rgba(245, 23, 14, 0.2);
+    transition: 0.3s;
+}

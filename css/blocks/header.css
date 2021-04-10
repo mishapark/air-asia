@@ -1,0 +1,20 @@
+.header {
+    padding: 16px 0px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 127px;
+    justify-content: space-between;
+}
+.header--secondary {
+    min-height: 82px;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+.header__col--align--right {
+    justify-content: flex-end;
+}

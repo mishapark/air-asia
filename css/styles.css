@@ -1,0 +1,37 @@
+@import url('./layout/normalize.css');
+@import url('./layout/base.css');
+@import url('./layout/fonts.css');
+
+@import url('./blocks/breadcrumbs.css');
+@import url('./blocks/header.css');
+@import url('./blocks/logo.css');
+@import url('./blocks/menu.css');
+@import url('./blocks/contacts.css');
+@import url('./blocks/button.css');
+@import url('./blocks/paginator.css');
+@import url('./blocks/footer.css');
+@import url('./blocks/socials.css');
+
+@import url('./blocks/welcome/welcome.css');
+
+@import url('./blocks/main/asian-tours.css');
+@import url('./blocks/main/offer.css');
+@import url('./blocks/main/news.css');
+@import url('./blocks/main/about.css');
+
+@import url('./blocks/services/hero.css');
+@import url('./blocks/services/services.css');
+@import url('./blocks/services/partners.css');
+
+@import url('./blocks/reviews/reviews.css');
+@import url('./blocks/reviews/banner.css');
+@import url('./blocks/reviews/feedback.css')
+
+
+
+
+
+
+
+
+

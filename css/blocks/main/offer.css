@@ -1,0 +1,94 @@
+.section {
+    margin-bottom: 140px;
+}
+.section__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+.section__title--icon{
+    display: flex;
+    align-items: center;
+}
+.section__title--icon::after {
+    content: '';
+    width: 21px;
+    height: 28px;
+    display: block;
+    background: url(/air-asia-img/images/icons/flame.png) center center no-repeat;
+    margin-left: 10px;
+}
+
+.section__items {
+    display: flex;
+    justify-content: space-between;
+}
+.section__item-offer {
+    min-height: 437px;
+    background: #fff;
+    border-radius: 6px;
+    width: calc(100% / 3 - 20px);
+    color: #000000;
+}
+.section__item-offer:last-child {
+    margin-right: 0;
+}
+
+.offer__head {
+    height: 141px;
+    margin-bottom: 4px;
+    position: relative;
+    overflow: hidden;
+}
+.offer__img {
+    position: absolute;
+}
+.offer__content {
+    padding: 19px 21px 33px;
+}
+.offer__title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 17px;
+}
+.offer__info {
+    margin-bottom: 25px;
+    padding-left: 5px;
+    display: flex;
+}
+.offer__info-item {
+    display: flex;
+    align-items: center;
+}
+.offer__info-item:first-child {
+    margin-right: 33px;
+}
+.offer__info-item:last-child {
+    margin-right: 0;
+}
+.offer__logo {
+    display: flex;
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+.offer__subtitle {
+    color: #666666;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+
+.offer__subtitle-b {
+    color: #666666;
+    display: inline-flex;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+
+.offer__text {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}

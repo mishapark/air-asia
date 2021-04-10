@@ -1,0 +1,20 @@
+.banner {
+    background: url(/air-asia-img/images/bg/middleline.jpg);
+    height: 360px;
+
+}
+.banner__title {
+    font-size: 48px;
+    font-weight: bold;
+    width: 588px;
+    margin-right: 27px;
+    line-height: 1.2;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -3px;
+}
+.banner__inner {
+    display: inline-block;
+    margin-top: 20px;
+    vertical-align: middle;
+}

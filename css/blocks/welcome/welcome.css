@@ -1,0 +1,48 @@
+.welcome__wrapper{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100%; overflow: hidden;
+}
+.welcome__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    animation: animate__bounceIn 0.9s, ease-in, forwards;
+}
+
+@keyframes animate__bounceIn {
+    0%{
+        opacity: 0%;
+        transform: scale(.7);
+    }
+    20% {
+        transform: scale(1.15);
+    }
+    40%{
+        transform: scale(.9);
+    }
+    60%{
+        transform: scale(1.1);
+    }
+    80%{
+        transform: scale(.95);
+    }
+    100%{
+        opacity: 100%;
+        transform: scale(1);
+    }
+}
+
+.welcome__logo{
+    margin-bottom: -87px;
+}
+.welcome__subtitle {
+    font-size: 18px;
+    margin-bottom: 57px;
+    padding-left: 19px;
+}
+.welcome__button{
+    padding-left: 19px;
+}
